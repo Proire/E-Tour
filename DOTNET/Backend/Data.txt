@@ -1,0 +1,358 @@
+1	DOM	Main	Domestic	/Photos/Main/DOM.png	N
+2	INT	Main	International	/Photos/Main/pexels-vincent-rivaud-2265876.jpg	N
+3	VS	Main	Varsha Sahal	/Photos/aaron-burden-jPYythhn7vk-unsplash.jpg	Y
+4	ADV	Main	Adventure	/Photos/Main/adventure 3.jpg	N
+5	CKD	Main	Cricket Dhamaka	/Photos/Main/wp8513143-cricket-match-wallpapers.jpg	Y
+6	EUR	INT	Europe	/Photos/INT/ilnur-kalimullin-CB0Qrf8ib4I-unsplash.jpg	N
+7	SEA	INT	South east asia	/Photos/INT/8fd58ff05aec6899868cbdebaf4bbbd9.jpg	N
+8	SLK	INT	Srilanka	/Photos/INT/big-golden-buddha-statue-wheel-turning-pose-top-temple-museum-dambulla-sri-lanka-golde-108026239.webp	Y
+9	GEU	EUR	Glimps of Europe	/Photos/INT/towe.jpg	Y
+10	AUS	EUR	Austria Switzerland	/Photos/INT/swit.jpg	Y
+11	ECD	EUR	Cricket Dhamaka	/Photos/INT/ben.jpg	Y
+12	CHI	INT	China	/Photos/INT/OIP.jpg	N
+13	CHT	CHI	China with Tibet	/Photos/INT/DHGD0JUUMAAmmPg.jpg	Y
+14	CHH	CHI	China with HK	/Photos/INT/pexels-shreyaan-vashishtha-16895151.jpg	Y
+15	HP	DOM	Himachal Pradesh	/Photos/DOM/pexels-photo-7170023.jpeg	Y
+16	ASM	DOM	Kerala	/Photos/DOM/wp9822414.jpg	Y
+17	EBC	ADV	Trek	/Photos/ADV/mt.jpg	Y
+18	PRG	ADV	Water_Sports	/Photos/ADV/pg.jpg	Y
+
+
+INSERT INTO Categories (CatId, SubCatId, CatName, CatImagePath, Flag)
+VALUES
+('DOM', 'Main', 'Domestic', '/Photos/Main/DOM.png', 'N'),
+('INT', 'Main', 'International', '/Photos/Main/pexels-vincent-rivaud-2265876.jpg', 'N'),
+('VS', 'Main', 'Varsha Sahal', '/Photos/aaron-burden-jPYythhn7vk-unsplash.jpg', 'Y'),
+('ADV', 'Main', 'Adventure', '/Photos/Main/adventure 3.jpg', 'N'),
+('CKD', 'Main', 'Cricket Dhamaka', '/Photos/Main/wp8513143-cricket-match-wallpapers.jpg', 'Y'),
+('EUR', 'INT', 'Europe', '/Photos/INT/ilnur-kalimullin-CB0Qrf8ib4I-unsplash.jpg', 'N'),
+('SEA', 'INT', 'South east asia', '/Photos/INT/8fd58ff05aec6899868cbdebaf4bbbd9.jpg', 'N'),
+('SLK', 'INT', 'Srilanka', '/Photos/INT/big-golden-buddha-statue-wheel-turning-pose-top-temple-museum-dambulla-sri-lanka-golde-108026239.webp', 'Y'),
+('GEU', 'EUR', 'Glimps of Europe', '/Photos/INT/towe.jpg', 'Y'),
+('AUS', 'EUR', 'Austria Switzerland', '/Photos/INT/swit.jpg', 'Y'),
+('ECD', 'EUR', 'Cricket Dhamaka', '/Photos/INT/ben.jpg', 'Y'),
+('CHI', 'INT', 'China', '/Photos/INT/OIP.jpg', 'N'),
+('CHT', 'CHI', 'China with Tibet', '/Photos/INT/DHGD0JUUMAAmmPg.jpg', 'Y'),
+('CHH', 'CHI', 'China with HK', '/Photos/INT/pexels-shreyaan-vashishtha-16895151.jpg', 'Y'),
+('HP', 'DOM', 'Himachal Pradesh', '/Photos/DOM/pexels-photo-7170023.jpeg', 'Y'),
+('ASM', 'DOM', 'Kerala', '/Photos/DOM/wp9822414.jpg', 'Y'),
+('EBC', 'ADV', 'Trek', '/Photos/ADV/mt.jpg', 'Y'),
+('PRG', 'ADV', 'Water_Sports', '/Photos/ADV/pg.jpg', 'Y');
+
+
+
+
+1	4000	3500	10000	7500	8000	2024-02-23	2024-04-23
+2	4200	3700	10500	7800	8200	2024-04-24	2024-06-24
+3	4300	3800	11000	7900	8300	2024-06-25	2024-08-25
+4	4400	3600	10100	7600	8100	2024-02-23	2024-04-23
+5	4500	3700	10600	7700	8300	2024-04-24	2024-06-24
+6	4600	3800	11100	7800	8400	2024-06-25	2024-08-25
+7	4700	3900	12000	7900	8500	2024-02-23	2024-04-23
+8	4800	4000	12500	8000	8600	2024-04-24	2024-06-24
+9	4900	4100	13000	8100	8700	2024-06-25	2024-08-25
+10	5000	4200	13500	8200	8800	2024-02-23	2024-04-23
+11	5100	4300	14000	8300	8900	2024-04-24	2024-06-24
+12	5200	4400	14500	8400	9000	2024-06-25	2024-08-25
+13	5300	4500	15000	8500	9100	2024-02-23	2024-04-23
+14	5400	4600	15500	8600	9200	2024-04-24	2024-06-24
+15	5500	4700	16000	8700	9300	2024-06-25	2024-08-25
+16	5600	4800	16500	8800	9400	2024-02-23	2024-04-23
+17	5700	4900	17000	8900	9500	2024-04-24	2024-06-24
+18	5800	5000	17500	9000	9600	2024-06-25	2024-08-25
+19	5900	5100	18000	9100	9700	2024-02-23	2024-04-23
+20	6000	5200	18500	9200	9800	2024-04-24	2024-06-24
+21	6100	5300	19000	9300	9900	2024-06-25	2024-08-25
+22	6200	5400	19500	9400	10000	2024-02-23	2024-04-23
+23	6300	5500	20000	9500	10100	2024-04-24	2024-06-24
+24	6400	5600	20500	9600	10200	2024-06-25	2024-08-25
+25	6500	5700	21000	9700	10300	2024-02-23	2024-04-23
+26	6600	5800	21500	9800	10400	2024-04-24	2024-06-24
+27	6700	5900	22000	9900	10500	2024-06-25	2024-08-25
+28	6800	6000	22500	10000	10600	2024-02-23	2024-04-23
+29	6900	6100	23000	10100	10700	2024-04-24	2024-06-24
+30	7000	6200	23500	10200	10800	2024-06-25	2024-08-25
+31	7100	6300	24000	10300	10900	2024-02-23	2024-04-23
+32	7200	6400	24500	10400	11000	2024-04-24	2024-06-24
+33	7300	6500	25000	10500	11100	2024-06-25	2024-08-25
+34	7400	6600	25500	10600	11200	2024-02-23	2024-04-23
+35	7500	6700	26000	10700	11300	2024-04-24	2024-06-24
+36	7600	6800	26500	10800	11400	2024-06-25	2024-08-25
+
+
+
+
+
+INSERT INTO CostMaster (Cost, DiscountedCost, Tax, OtherCharges, GrandTotal, TotalAmount, StartDate, EndDate)
+VALUES
+(4000, 3500, 10000, 7500, 8000, 2024-02-23, 2024-04-23),
+(4200, 3700, 10500, 7800, 8200, 2024-04-24, 2024-06-24),
+(4300, 3800, 11000, 7900, 8300, 2024-06-25, 2024-08-25),
+(4400, 3600, 10100, 7600, 8100, 2024-02-23, 2024-04-23),
+(4500, 3700, 10600, 7700, 8300, 2024-04-24, 2024-06-24),
+(4600, 3800, 11100, 7800, 8400, 2024-06-25, 2024-08-25),
+(4700, 3900, 12000, 7900, 8500, 2024-02-23, 2024-04-23),
+(4800, 4000, 12500, 8000, 8600, 2024-04-24, 2024-06-24),
+(4900, 4100, 13000, 8100, 8700, 2024-06-25, 2024-08-25),
+(5000, 4200, 13500, 8200, 8800, 2024-02-23, 2024-04-23),
+(5100, 4300, 14000, 8300, 8900, 2024-04-24, 2024-06-24),
+(5200, 4400, 14500, 8400, 9000, 2024-06-25, 2024-08-25),
+(5300, 4500, 15000, 8500, 9100, 2024-02-23, 2024-04-23),
+(5400, 4600, 15500, 8600, 9200, 2024-04-24, 2024-06-24),
+(5500, 4700, 16000, 8700, 9300, 2024-06-25, 2024-08-25),
+(5600, 4800, 16500, 8800, 9400, 2024-02-23, 2024-04-23),
+(5700, 4900, 17000, 8900, 9500, 2024-04-24, 2024-06-24),
+(5800, 5000, 17500, 9000, 9600, 2024-06-25, 2024-08-25),
+(5900, 5100, 18000, 9100, 9700, 2024-02-23, 2024-04-23),
+(6000, 5200, 18500, 9200, 9800, 2024-04-24, 2024-06-24),
+(6100, 5300, 19000, 9300, 9900, 2024-06-25, 2024-08-25),
+(6200, 5400, 19500, 9400, 10000, 2024-02-23, 2024-04-23),
+(6300, 5500, 20000, 9500, 10100, 2024-04-24, 2024-06-24),
+(6400, 5600, 20500, 9600, 10200, 2024-06-25, 2024-08-25),
+(6500, 5700, 21000, 9700, 10300, 2024-02-23, 2024-04-23),
+(6600, 5800, 21500, 9800, 10400, 2024-04-24, 2024-06-24),
+(6700, 5900, 22000, 9900, 10500, 2024-06-25, 2024-08-25),
+(6800, 6000, 22500, 10000, 10600, 2024-02-23, 2024-04-23),
+(6900, 6100, 23000, 10100, 10700, 2024-04-24, 2024-06-24),
+(7000, 6200, 23500, 10200, 10800, 2024-06-25, 2024-08-25),
+(7100, 6300, 24000, 10300, 10900, 2024-02-23, 2024-04-23),
+(7200, 6400, 24500, 10400, 11000, 2024-04-24, 2024-06-24),
+(7300, 6500, 25000, 10500, 11100, 2024-06-25, 2024-08-25),
+(7400, 6600, 25500, 10600, 11200, 2024-02-23, 2024-04-23),
+(7500, 6700, 26000, 10700, 11300, 2024-04-24, 2024-06-24),
+(7600, 6800, 26500, 10800, 11400, 2024-06-25, 2024-08-25);
+
+
+
+1	2024-02-19	2024-02-29	10	3
+2	2024-05-17	2024-05-25	8	3
+3	2024-06-03	2024-06-13	10	3
+4	2024-02-23	2024-05-02	8	5
+5	2024-04-13	2024-06-20	7	5
+6	2024-06-25	2024-06-23	8	5
+7	2024-04-23	2024-05-02	8	8
+8	2024-06-15	2024-06-22	7	8
+9	2024-07-01	2024-07-08	8	8
+10	2024-11-21	2024-11-28	7	9
+11	2024-05-16	2024-05-26	10	9
+12	2024-06-07	2024-06-15	8	9
+13	2024-04-23	2024-05-01	7	10
+14	2024-09-20	2024-09-27	7	10
+15	2024-01-11	2024-01-17	6	10
+16	2024-02-14	2024-02-20	6	11
+17	2024-12-18	2024-12-26	7	11
+18	2024-08-02	2024-08-10	8	11
+19	2024-09-13	2024-09-21	8	13
+20	2024-04-19	2024-04-26	7	13
+21	2024-11-18	2024-11-24	6	13
+22	2024-03-06	2024-03-16	10	14
+23	2024-07-11	2024-07-19	8	14
+24	2024-10-12	2024-10-20	8	14
+25	2024-07-15	2024-07-25	10	15
+26	2024-08-24	2024-08-30	6	15
+27	2024-06-28	2024-07-03	6	15
+28	2024-09-16	2024-09-22	6	16
+29	2024-07-21	2024-07-28	7	16
+30	2024-07-09	2024-07-15	6	16
+31	2024-08-16	2024-08-22	6	17
+32	2024-09-29	2024-10-05	7	17
+33	2024-08-15	2024-08-25	10	17
+34	2024-12-16	2024-12-23	7	18
+35	2024-04-10	2024-04-16	6	18
+36	2024-06-20	2024-06-26	6	18
+
+
+INSERT INTO Dates (DepartDate, EndDate, No_of_Days, CatMasterId)
+VALUES
+('2024-02-19', '2024-02-29', 10, 3),
+('2024-05-17', '2024-05-25', 8, 3),
+('2024-06-03', '2024-06-13', 10, 3),
+('2024-02-23', '2024-05-02', 8, 5),
+('2024-04-13', '2024-06-20', 7, 5),
+('2024-06-25', '2024-06-23', 8, 5),
+('2024-04-23', '2024-05-02', 8, 8),
+('2024-06-15', '2024-06-22', 7, 8),
+('2024-07-01', '2024-07-08', 8, 8),
+('2024-11-21', '2024-11-28', 7, 9),
+('2024-05-16', '2024-05-26', 10, 9),
+('2024-06-07', '2024-06-15', 8, 9),
+('2024-04-23', '2024-05-01', 7, 10),
+('2024-09-20', '2024-09-27', 7, 10),
+('2024-01-11', '2024-01-17', 6, 10),
+('2024-02-14', '2024-02-20', 6, 11),
+('2024-12-18', '2024-12-26', 7, 11),
+('2024-08-02', '2024-08-10', 8, 11),
+('2024-09-13', '2024-09-21', 8, 13),
+('2024-04-19', '2024-04-26', 7, 13),
+('2024-11-18', '2024-11-24', 6, 13),
+('2024-03-06', '2024-03-16', 10, 14),
+('2024-07-11', '2024-07-19', 8, 14),
+('2024-10-12', '2024-10-20', 8, 14),
+('2024-07-15', '2024-07-25', 10, 15),
+('2024-08-24', '2024-08-30', 6, 15),
+('2024-06-28', '2024-07-03', 6, 15),
+('2024-09-16', '2024-09-22', 6, 16),
+('2024-07-21', '2024-07-28', 7, 16),
+('2024-07-09', '2024-07-15', 6, 16),
+('2024-08-16', '2024-08-22', 6, 17),
+('2024-09-29', '2024-10-05', 7, 17),
+('2024-08-15', '2024-08-25', 10, 17),
+('2024-12-16', '2024-12-23', 7, 18),
+('2024-04-10', '2024-04-16', 6, 18),
+('2024-06-20', '2024-06-26', 6, 18);
+
+
+
+
+
+
+
+INSERT INTO [dbo].[ItineraryMaster] ([DayNo], [ItrDetails], [CatMasterId])
+VALUES
+(1, 'Arrival in Varsha Sahal', 3),
+(2, 'Visit to local market', 3),
+(3, 'Explore historical sites', 3),
+(4, 'Day trip to nearby attractions', 3),
+(5, 'Experience local cuisine', 3),
+(6, 'Relaxation day', 3),
+(7, 'Outdoor adventure activities', 3),
+(8, 'Explore cultural heritage', 3),
+(9, 'Visit to scenic spots', 3),
+(10, 'Departure from Varsha Sahal', 3),
+(1, 'Arrival in cricket Dhamaka', 5),
+(2, 'Attend cricket match', 5),
+(3, 'Explore local cricket culture', 5),
+(4, 'Visit cricket museum', 5),
+(5, 'Day trip to cricket stadium', 5),
+(6, 'Participate in cricket tournament', 5),
+(7, 'Cricket training session', 5),
+(8, 'Cricket-themed cultural event', 5),
+(1, 'Arrival at Bandaranaike International Airport in Colombo. Transfer to hotel and check-in.', 8),
+(2, 'Explore the vibrant markets of Colombo and visit Independence Square.', 8),
+(3, 'Visit the ancient city of Sigiriya and climb the Sigiriya Rock Fortress.', 8),
+(4, 'Take a safari tour at Minneriya National Park and spot wildlife.', 8),
+(5, 'Travel to Kandy and visit the Temple of the Sacred Tooth Relic.', 8),
+(6, 'Enjoy a scenic train ride through the tea plantations of Nuwara Eliya.', 8),
+(7, 'Visit the UNESCO World Heritage site of Galle Fort and explore its colonial history.', 8),
+(8, 'Relax on the beaches of Bentota and indulge in water sports activities.', 8),
+(1, 'Arrival in Europe. Transfer to hotel and check-in.', 9),
+(2, 'Explore the charming streets of Paris and visit the Eiffel Tower.', 9),
+(3, 'Take a day trip to Versailles and explore the opulent Palace of Versailles.', 9),
+(4, 'Travel to Switzerland and enjoy a scenic train ride to Jungfraujoch, the Top of Europe.', 9),
+(5, 'Visit the picturesque villages of Interlaken and Lauterbrunnen.', 9),
+(6, 'Explore the historical landmarks of Rome, including the Colosseum and Vatican City.', 9),
+(7, 'Take a gondola ride through the canals of Venice and visit St. Marks Square.', 9),
+(8, 'Spend a day relaxing in the beautiful countryside of Tuscany.', 9),
+(9, 'Travel to Austria and explore the charming city of Vienna.', 9),
+(10, 'Departure from Europe.', 9),
+(1, 'Arrival in Austria. Transfer to hotel and check-in.', 10),
+(2, 'Explore the charming city of Vienna and visit Schönbrunn Palace.', 10),
+(3, 'Take a day trip to Salzburg and explore the birthplace of Mozart.', 10),
+(4, 'Travel to Innsbruck and visit the historic Old Town and Golden Roof.', 10),
+(5, 'Cross the border to Switzerland and explore the beautiful city of Zurich.', 10),
+(6, 'Enjoy a scenic train ride to Lucerne and visit the Chapel Bridge and Lion Monument.', 10),
+(7, 'Departure from Switzerland.', 10),
+(1, 'Arrival in the host city for the cricket tournament. Transfer to hotel and check-in.', 11),
+(2, 'Attend the opening ceremony of the tournament.', 11),
+(3, 'Enjoy the first match of the tournament.', 11),
+(4, 'Explore the city during the rest day.', 11),
+(5, 'Watch another thrilling match.', 11),
+(6, 'Departure from the host city.', 11),
+(1, 'Arrive in Beijing, China. Transfer to hotel and check-in.', 13),
+(2, 'Explore the Great Wall of China and the Forbidden City.', 13),
+(3, 'Visit the Temple of Heaven and Summer Palace.', 13),
+(4, 'Take a high-speed train to Xian and visit the Terracotta Army.', 13),
+(5, 'Travel to Lhasa, Tibet and acclimatize to the altitude.', 13),
+(6, 'Visit the Potala Palace and Jokhang Temple in Lhasa.', 13),
+(7, 'Explore the Barkhor Street and enjoy Tibetan cuisine.', 13),
+(8, 'Depart from Lhasa and return home.', 13),
+(1, 'Arrive in Shimla, Himachal Pradesh. Transfer to hotel and check-in.', 15),
+(2, 'Explore Mall Road and visit Jakhu Temple.', 15),
+(3, 'Take a day trip to Kufri and enjoy snow activities.', 15),
+(4, 'Travel to Manali and visit Hadimba Temple.', 15),
+(5, 'Explore Solang Valley and enjoy adventure sports.', 15),
+(6, 'Visit Rohtang Pass for breathtaking views.', 15),
+(7, 'Explore Manikaran Sahib and enjoy hot springs.', 15),
+(8, 'Travel to Dharamshala and visit Dalai Lama Temple.', 15),
+(9, 'Explore McLeod Ganj and Bhagsu Nag Temple.', 15),
+(10, 'Depart from Dharamshala and return home.', 15),
+(1, 'Arrive in Kochi, Kerala. Transfer to hotel and check-in.', 16),
+(2, 'Explore Fort Kochi and visit Chinese Fishing Nets.', 16),
+(3, 'Take a backwater cruise in Alleppey.', 16),
+(4, 'Travel to Munnar and visit tea plantations.', 16),
+(5, 'Explore Eravikulam National Park and Mattupetty Dam.', 16),
+(6, 'Depart from Kochi and return home.', 16),
+(1, 'Arrive in Kathmandu, Nepal. Transfer to hotel and check-in.', 17),
+(2, 'Explore Kathmandu Durbar Square and Swayambhunath Temple.', 17),
+(3, 'Travel to Pokhara and visit Phewa Lake.', 17),
+(4, 'Begin trekking to Ghorepani.', 17),
+(5, 'Hike to Poon Hill for sunrise views.', 17),
+(6, 'Depart from Pokhara and return home.', 17),
+(1, 'Arrive in Male, Maldives. Transfer to the resort and check-in.', 18),
+(2, 'Enjoy snorkeling and water sports activities.', 18),
+(3, 'Explore the underwater world with a diving excursion.', 18),
+(4, 'Relax on the beach and indulge in resort amenities.', 18),
+(5, 'Take a day trip to nearby islands for sightseeing.', 18),
+(6, 'Continue enjoying water sports and leisure activities.', 18),
+(7, 'Depart from the Maldives and return home.', 18);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO [dbo].[PackageMaster] ([CatMasterId], [DepartureId], [DateMasterDepartureId])
+VALUES
+(3, 1, 1),
+(3, 2, 2),
+(3, 3, 3),
+(5, 4, 4),
+(5, 5, 5),
+(5, 6, 6),
+(8, 7, 7),
+(8, 8, 8),
+(8, 9, 9),
+(9, 10, 10),
+(9, 11, 11),
+(9, 12, 12),
+(10, 13, 13),
+(10, 14, 14),
+(10, 15, 15),
+(11, 16, 16),
+(11, 17, 17),
+(11, 18, 18),
+(13, 19, 19),
+(13, 20, 20),
+(13, 21, 21),
+(14, 22, 22),
+(14, 23, 23),
+(14, 24, 24),
+(15, 25, 25),
+(15, 26, 26),
+(15, 27, 27),
+(16, 28, 28),
+(16, 29, 29),
+(16, 30, 30),
+(17, 31, 31),
+(17, 32, 32),
+(17, 33, 33),
+(18, 34, 34),
+(18, 35, 35),
+(18, 36, 36),
+(18, 17, 17),
+(18, 32, 32),
+(18, 11, 11);
+
+
