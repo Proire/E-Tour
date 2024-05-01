@@ -1,0 +1,204 @@
+INSERT INTO Categories (CatId, SubCatId, CatName, CatImagePath, Flag) VALUES 
+('DOM', 'Main', 'Domestic', '/Photos/Main/DOM.png', 'N'),
+('INT', 'Main', 'International', '/Photos/Main/pexels-vincent-rivaud-2265876.jpg', 'N'),
+('VS', 'Main', 'Varsha Sahal', '/Photos/aaron-burden-jPYythhn7vk-unsplash.jpg', 'Y'),
+('ADV', 'Main', 'Adventure', '/Photos/Main/adventure 3.jpg', 'N'),
+('CKD', 'Main', 'Cricket Dhamaka', '/Photos/Main/wp8513143-cricket-match-wallpapers.jpg', 'Y'),
+('EUR', 'INT', 'Europe', '/Photos/INT/ilnur-kalimullin-CB0Qrf8ib4I-unsplash.jpg', 'N'),
+('SEA', 'INT', 'South east asia', '/Photos/INT/8fd58ff05aec6899868cbdebaf4bbbd9.jpg', 'Y'),
+('SLK', 'INT', 'Srilanka', '/Photos/INT/big-golden-buddha-statue-wheel-turning-pose-top-temple-museum-dambulla-sri-lanka-golde-108026239.webp', 'Y'),
+('GEU', 'EUR', 'Glimps of Europe', '/Photos/INT/towe.jpg', 'Y'),
+('AUS', 'EUR', 'Austria Switzerland', '/Photos/INT/swit.jpg', 'Y'),
+('ECD', 'EUR', 'Cricket Dhamaka', '/Photos/INT/ben.jpg', 'Y'),
+('CHI', 'INT', 'China', '/Photos/INT/OIP.jpg', 'N'),
+('CHT', 'CHI', 'China with Tibet', '/Photos/INT/DHGD0JUUMAAmmPg.jpg', 'Y'),
+('CHH', 'CHI', 'China with HK', '/Photos/INT/pexels-shreyaan-vashishtha-16895151.jpg', 'Y'),
+('HP', 'DOM', 'Himachal Pradesh', '/Photos/DOM/pexels-photo-7170023.jpeg', 'Y'),
+('ASM', 'DOM', 'Kerala', '/Photos/DOM/wp9822414.jpg', 'Y'),
+('EBC', 'ADV', 'Trek', '/Photos/ADV/mt.jpg', 'Y'),
+('PRG', 'ADV', 'Water_Sports', '/Photos/ADV/pg.jpg', 'Y');
+
+
+
+Dom 
+Int 
+vs 
+adv
+ckd 
+
+Eur   sea   slk  chi -- Int 
+geu   aus   eud   -- eur 
+cht   chh   -- chi
+hp    asm   -- Dom
+EBC    prg   -- Adv   
+
+
+[
+  {
+    "category": "Main",
+    "subCategory": "Domestic",
+    "categoryName": "Domestic",
+    "catImagePath": "/Photos/Main/DOM.png",
+    "flag": "N"
+  },
+  {
+    "category": "Main",
+    "subCategory": "International",
+    "categoryName": "International",
+    "catImagePath": "/Photos/Main/pexels-vincent-rivaud-2265876.jpg",
+    "flag": "N"
+  },
+  {
+    "category": "Main",
+    "subCategory": "Varsha Sahal",
+    "categoryName": "Varsha Sahal",
+    "catImagePath": "/Photos/aaron-burden-jPYythhn7vk-unsplash.jpg",
+    "flag": "Y"
+  },
+  {
+    "category": "Main",
+    "subCategory": "Adventure",
+    "categoryName": "Adventure",
+    "catImagePath": "/Photos/Main/adventure 3.jpg",
+    "flag": "N"
+  },
+  {
+    "category": "Main",
+    "subCategory": "Cricket Dhamaka",
+    "categoryName": "Cricket Dhamaka",
+    "catImagePath": "/Photos/Main/wp8513143-cricket-match-wallpapers.jpg",
+    "flag": "Y"
+  },
+  {
+    "category": "INT",
+    "subCategory": "Europe",
+    "categoryName": "Europe",
+    "catImagePath": "/Photos/INT/ilnur-kalimullin-CB0Qrf8ib4I-unsplash.jpg",
+    "flag": "N"
+  },
+  {
+    "category": "INT",
+    "subCategory": "South east asia",
+    "categoryName": "South east asia",
+    "catImagePath": "/Photos/INT/8fd58ff05aec6899868cbdebaf4bbbd9.jpg",
+    "flag": "Y"
+  },
+  {
+    "category": "INT",
+    "subCategory": "Srilanka",
+    "categoryName": "Srilanka",
+    "catImagePath": "/Photos/INT/big-golden-buddha-statue-wheel-turning-pose-top-temple-museum-dambulla-sri-lanka-golde-108026239.webp",
+    "flag": "Y"
+  },
+  {
+    "category": "EUR",
+    "subCategory": "Glimps of Europe",
+    "categoryName": "Glimps of Europe",
+    "catImagePath": "/Photos/INT/towe.jpg",
+    "flag": "Y"
+  },
+  {
+    "category": "EUR",
+    "subCategory": "Austria Switzerland",
+    "categoryName": "Austria Switzerland",
+    "catImagePath": "/Photos/INT/swit.jpg",
+    "flag": "Y"
+  },
+  {
+    "category": "EUR",
+    "subCategory": "Cricket Dhamaka",
+    "categoryName": "Cricket Dhamaka",
+    "catImagePath": "/Photos/INT/ben.jpg",
+    "flag": "Y"
+  },
+  {
+    "category": "INT",
+    "subCategory": "China",
+    "categoryName": "China",
+    "catImagePath": "/Photos/INT/OIP.jpg",
+    "flag": "N"
+  },
+  {
+    "category": "CHI",
+    "subCategory": "China with Tibet",
+    "categoryName": "China with Tibet",
+    "catImagePath": "/Photos/INT/DHGD0JUUMAAmmPg.jpg",
+    "flag": "Y"
+  },
+  {
+    "category": "CHI",
+    "subCategory": "China with HK",
+    "categoryName": "China with HK",
+    "catImagePath": "/Photos/INT/pexels-shreyaan-vashishtha-16895151.jpg",
+    "flag": "Y"
+  },
+  {
+    "category": "DOM",
+    "subCategory": "Himachal Pradesh",
+    "categoryName": "Himachal Pradesh",
+    "catImagePath": "/Photos/DOM/pexels-photo-7170023.jpeg",
+    "flag": "Y"
+  },
+  {
+    "category": "DOM",
+    "subCategory": "Kerala",
+    "categoryName": "Kerala",
+    "catImagePath": "/Photos/DOM/wp9822414.jpg",
+    "flag": "Y"
+  },
+  {
+    "category": "ADV",
+    "subCategory": "Trek",
+    "categoryName": "Trek",
+    "catImagePath": "/Photos/ADV/mt.jpg",
+    "flag": "Y"
+  },
+  {
+    "category": "ADV",
+    "subCategory": "Water_Sports",
+    "categoryName": "Water_Sports",
+    "catImagePath": "/Photos/ADV/pg.jpg",
+    "flag": "Y"
+  }
+]
+
+
+
+
+select * from costs;
++----+----------------+-------------------+---------+-------------------+--------------------+------------+------------+-------------+
+| id | child_with_bed | child_without_bed | cost    | extra_person_cost | single_person_cost | valid_from | valid_to   | category_id |
++----+----------------+-------------------+---------+-------------------+--------------------+------------+------------+-------------+
+|  1 |          22500 |             15000 |   75000 |             30000 |              45000 | 2024-08-01 | 2024-08-31 |           8 |
+|  2 |          23000 |             15500 |   78000 |             31000 |              46000 | 2024-01-01 | 2024-03-31 |           8 |
+|  3 |          22000 |             14500 |   72000 |             29000 |              43000 | 2024-10-01 | 2024-12-31 |           8 |
+|  4 |          45000 |             30000 |  150000 |             60000 |              90000 | 2024-04-01 | 2024-06-30 |           7 |
+|  5 |          48000 |             32000 |  160000 |             65000 |              95000 | 2024-07-01 | 2024-09-30 |           7 |
+|  6 |          52000 |             35000 |  170000 |             70000 |             100000 | 2024-11-01 | 2024-12-31 |           7 |
+|  7 |          52000 |             35000 |  170000 |             70000 |             100000 | 2024-11-01 | 2024-12-31 |           5 |
+|  8 |          11500 |              7750 |   39000 |             15500 |              23000 | 2024-06-15 | 2024-09-15 |           5 |
+|  9 |          10750 |              7200 |   36000 |             14500 |              21500 | 2024-10-15 | 2024-12-30 |           5 |
+| 10 |           7875 |              5250 |   26500 |             10500 |              16000 | 2024-02-01 | 2024-04-01 |           3 |
+| 11 |           8400 |              5600 |   28200 |             11200 |              16850 | 2024-06-01 | 2024-08-01 |           3 |
+| 12 |           7650 |              5100 |   25500 |             10200 |              15300 | 2024-09-01 | 2024-12-15 |           3 |
+| 13 |          56250 |             37500 |  195000 |             75000 |             120000 | 2024-03-15 | 2024-05-15 |           9 |
+| 14 |          47250 |             31500 |  165000 |             63000 |             102000 | 2024-06-15 | 2024-09-15 |           9 |
+| 15 |          63750 |             42500 |  220000 |             85000 |             135000 | 2024-10-01 | 2024-12-31 |           9 |
+| 16 |          20250 |             13500 |   75000 |             27000 |              48000 | 2024-04-01 | 2024-04-30 |          10 |
+| 17 |          26250 |             17500 |   90000 |             35000 |              55000 | 2024-05-15 | 2024-06-15 |          10 |
+| 18 |          16500 |             11000 |   60000 |             22000 |              38000 | 2024-07-01 | 2024-08-31 |          10 |
+| 19 |         160000 |            120000 |  550000 |            180000 |             370000 | 2024-06-01 | 2024-06-30 |          11 |
+| 20 |         190000 |            140000 |  650000 |            220000 |             430000 | 2024-12-01 | 2024-12-31 |          11 |
+| 21 |         180000 |            140000 |  600000 |            200000 |             400000 | 2024-03-01 | 2024-03-31 |          13 |
+| 22 |         220000 |            160000 |  720000 |            240000 |             480000 | 2024-09-01 | 2024-09-30 |          13 |
+| 23 |         350000 |            250000 | 1150000 |            400000 |             750000 | 2024-02-01 | 2024-02-29 |          14 |
+| 24 |         400000 |            280000 | 1300000 |            450000 |             850000 | 2024-10-01 | 2024-10-31 |          14 |
+| 25 |          18000 |             14000 |   60000 |             20000 |              40000 | 2024-06-01 | 2024-06-30 |          15 |
+| 26 |          19000 |             15000 |   65000 |             20000 |              45000 | 2024-09-01 | 2024-09-30 |          15 |
+| 27 |          17000 |             13000 |   55000 |             20000 |              35000 | 2024-01-01 | 2024-01-31 |          16 |
+| 28 |          18000 |             14000 |   60000 |             20000 |              40000 | 2024-10-01 | 2024-10-31 |          16 |
+| 29 |         180000 |            120000 |  520000 |            220000 |             300000 | 2023-01-01 | 2023-01-31 |          17 |
+| 30 |         190000 |            130000 |  570000 |            220000 |             350000 | 2024-10-10 | 2024-10-20 |          17 |
+| 31 |         100000 |             70000 |  320000 |            120000 |             200000 | 2023-06-01 | 2023-06-30 |          18 |
+| 32 |         110000 |             75000 |  380000 |            130000 |             250000 | 2024-12-01 | 2024-12-31 |          18 |
++----+----------------+-------------------+---------+-------------------+--------------------+------------+------------+-------------+
